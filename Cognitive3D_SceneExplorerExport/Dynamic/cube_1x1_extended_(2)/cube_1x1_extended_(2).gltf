@@ -1,0 +1,245 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 168,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        2.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 168,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 168,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 168,
+      "type": "VEC2",
+      "max": [
+        0.99000000953674316,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0099999904632568359
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 168,
+      "type": "VEC2",
+      "max": [
+        0.92067265510559082,
+        0.99609375
+      ],
+      "min": [
+        0.00390625,
+        0.011764287948608398
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 324,
+      "type": "SCALAR",
+      "max": [
+        167.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "cube_1x1_extended_(2).bin",
+      "byteLength": 9732
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2016,
+      "byteLength": 2016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4032,
+      "byteLength": 2688
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6720,
+      "byteLength": 1344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8064,
+      "byteLength": 1344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9408,
+      "byteLength": 324
+    }
+  ],
+  "images": [
+    {
+      "uri": "1828012235base-colorMain.png",
+      "name": "base-color"
+    },
+    {
+      "uri": "1134220511mettalicMetallicGloss.png",
+      "name": "mettalic"
+    },
+    {
+      "uri": "1234547009base-color-normalBump.png",
+      "name": "base-color-normal"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7647059,
+          0.7610608,
+          0.759083033,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "scale": -100.0,
+        "index": 2
+      },
+      "name": "base color"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Cube_1x1_extended (2)"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "Cube_1x1_extended (2)"
+    },
+    {
+      "name": "Audio Affordance"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984,
+      "wrapS": 33071,
+      "wrapT": 33071
+    },
+    {
+      "wrapS": 33071,
+      "wrapT": 33071
+    },
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "cube_1x1_extended_(2)"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1828012235base-colorMain"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "1134220511mettalicMetallicGloss"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "1234547009base-color-normalBump"
+    }
+  ]
+}

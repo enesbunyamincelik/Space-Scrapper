@@ -1,0 +1,781 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 76,
+      "type": "VEC3",
+      "max": [
+        0.0056225443258881569,
+        0.0041014701128005981,
+        0.11973771452903748
+      ],
+      "min": [
+        -0.0056225443258881569,
+        -0.0043796510435640812,
+        -0.0069686076603829861
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 76,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.35351067781448364,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 76,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.35351115465164185,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.93543040752410889,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 76,
+      "type": "VEC2",
+      "max": [
+        0.99079781770706177,
+        0.99970269203186035
+      ],
+      "min": [
+        0.85772258043289185,
+        0.6201775074005127
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 144,
+      "type": "SCALAR",
+      "max": [
+        75.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC3",
+      "max": [
+        0.021179985255002975,
+        0.028439627960324287,
+        0.039896070957183838
+      ],
+      "min": [
+        -0.021179985255002975,
+        -0.037002447992563248,
+        -0.099497660994529724
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC2",
+      "max": [
+        0.983249306678772,
+        0.99970275163650513
+      ],
+      "min": [
+        0.00029727444052696228,
+        0.060949087142944336
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5121,
+      "count": 468,
+      "type": "SCALAR",
+      "max": [
+        151.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.004431593231856823,
+        0.011049442924559116,
+        0.006513968575745821
+      ],
+      "min": [
+        -0.004431593231856823,
+        -0.011049442924559116,
+        -0.0025834660045802593
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.39619752764701843,
+        0.98151808977127075
+      ],
+      "min": [
+        -1.0,
+        -0.47075706720352173,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.012725709937512875,
+        0.99999392032623291,
+        1.0
+      ],
+      "min": [
+        0.0,
+        -0.012725681997835636,
+        -0.99999678134918213,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "max": [
+        0.50269043445587158,
+        0.083325505256652832
+      ],
+      "min": [
+        0.42479923367500305,
+        0.00029730796813964844
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5121,
+      "count": 54,
+      "type": "SCALAR",
+      "max": [
+        23.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC3",
+      "max": [
+        0.0089252330362796783,
+        0.15789775550365448,
+        0.036381494253873825
+      ],
+      "min": [
+        -0.0089252330362796783,
+        0.00071305688470602036,
+        -0.00599043071269989
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC4",
+      "max": [
+        0.98080664873123169,
+        1.0,
+        0.19509442150592804,
+        1.0
+      ],
+      "min": [
+        -0.76178646087646484,
+        -1.0,
+        -0.93316859006881714,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 150,
+      "type": "VEC2",
+      "max": [
+        0.98201996088027954,
+        0.73029005527496338
+      ],
+      "min": [
+        0.50328505039215088,
+        0.020023047924041748
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5121,
+      "count": 414,
+      "type": "SCALAR",
+      "max": [
+        149.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 178,
+      "type": "VEC3",
+      "max": [
+        0.022219950333237648,
+        0.062753148376941681,
+        0.061016343533992767
+      ],
+      "min": [
+        -0.022219950333237648,
+        -0.064251407980918884,
+        -0.019580146297812462
+      ]
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 178,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.97094559669494629,
+        0.98904269933700562
+      ],
+      "min": [
+        -1.0,
+        -0.97094595432281494,
+        -0.9999997615814209
+      ]
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 178,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.98018950223922729,
+        0.99834930896759033,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.87128978967666626,
+        -0.99834930896759033,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 178,
+      "type": "VEC2",
+      "max": [
+        0.99357986450195313,
+        0.99970269203186035
+      ],
+      "min": [
+        0.42479926347732544,
+        0.036441802978515625
+      ]
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5121,
+      "count": 348,
+      "type": "SCALAR",
+      "max": [
+        177.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "sci_fi_pistol.bin",
+      "byteLength": 29268
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 912
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 912,
+      "byteLength": 912
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1824,
+      "byteLength": 1216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3040,
+      "byteLength": 608
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3648,
+      "byteLength": 144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3792,
+      "byteLength": 1824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5616,
+      "byteLength": 1824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7440,
+      "byteLength": 2432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9872,
+      "byteLength": 1216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11088,
+      "byteLength": 468
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11556,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11844,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12132,
+      "byteLength": 384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12516,
+      "byteLength": 192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12708,
+      "byteLength": 54
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12762,
+      "byteLength": 1800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14562,
+      "byteLength": 1800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16362,
+      "byteLength": 2400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18762,
+      "byteLength": 1200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19962,
+      "byteLength": 414
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20376,
+      "byteLength": 2136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22512,
+      "byteLength": 2136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24648,
+      "byteLength": 2848
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27496,
+      "byteLength": 1424
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28920,
+      "byteLength": 348
+    }
+  ],
+  "images": [
+    {
+      "uri": "1071795821sci-fi_pistol_low_uv_BaseColorMain.png",
+      "name": "sci-fi_pistol_low_uv_BaseColor"
+    },
+    {
+      "uri": "783747476sci-fi_pistol_low_uv_MetallicMetallicGloss.png",
+      "name": "sci-fi_pistol_low_uv_Metallic"
+    },
+    {
+      "uri": "736307130sci-fi_pistol_low_uv_NormalBump.png",
+      "name": "sci-fi_pistol_low_uv_Normal"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "roughnessFactor": 0.800000011920929,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "name": "Scifi pistol Mat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "aim_low"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ],
+      "name": "base_low"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0
+        }
+      ],
+      "name": "doggy_low"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TANGENT": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ],
+      "name": "gun_low"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TANGENT": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 24,
+          "material": 0
+        }
+      ],
+      "name": "handle_low"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Sci Fi Pistol"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.0308450628,
+        -0.08737896
+      ],
+      "name": "aim_low"
+    },
+    {
+      "mesh": 1,
+      "name": "base_low"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        -0.048103258,
+        0.0,
+        0.0,
+        0.9988424
+      ],
+      "translation": [
+        0.0,
+        -0.00490994658,
+        -0.07149246
+      ],
+      "name": "doggy_low"
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "translation": [
+        0.0,
+        0.0190507174,
+        -0.102930158
+      ],
+      "name": "gun_low"
+    },
+    {
+      "mesh": 4,
+      "rotation": [
+        0.120528832,
+        0.0,
+        0.0,
+        0.9927098
+      ],
+      "translation": [
+        0.0,
+        -0.03425159,
+        -0.103100032
+      ],
+      "name": "handle_low"
+    },
+    {
+      "translation": [
+        0.0,
+        -0.03,
+        -0.085
+      ],
+      "name": "Attach Transform"
+    },
+    {
+      "rotation": [
+        0.0,
+        4.47034836E-08,
+        0.558389544,
+        0.8295789
+      ],
+      "scale": [
+        4.519989,
+        4.519989,
+        0.353984147
+      ],
+      "translation": [
+        -0.004,
+        -0.0105,
+        0.0583
+      ],
+      "name": "Circle Rings Particles"
+    },
+    {
+      "translation": [
+        -0.004,
+        -0.0105,
+        0.0583
+      ],
+      "name": "Shoot Source"
+    },
+    {
+      "scale": [
+        0.044038076,
+        0.044038076,
+        0.044038076
+      ],
+      "translation": [
+        1.354,
+        0.9619,
+        -0.233
+      ],
+      "name": "Audio Affordance"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "sci_fi_pistol"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1071795821sci-fi_pistol_low_uv_BaseColorMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "783747476sci-fi_pistol_low_uv_MetallicMetallicGloss"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "736307130sci-fi_pistol_low_uv_NormalBump"
+    }
+  ]
+}

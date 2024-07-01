@@ -1,0 +1,405 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 189,
+      "type": "VEC3",
+      "max": [
+        0.063792496919631958,
+        0.013041689060628414,
+        0.063793770968914032
+      ],
+      "min": [
+        -0.063792496919631958,
+        0.00026875094044953585,
+        -0.063793770968914032
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 189,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 189,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        0.0019981309305876493,
+        1.0
+      ],
+      "min": [
+        -0.76575160026550293,
+        -1.0,
+        -0.47495916485786438,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 189,
+      "type": "VEC2",
+      "max": [
+        0.97146666049957275,
+        0.99796605110168457
+      ],
+      "min": [
+        0.17896461486816406,
+        0.0084376931190490723
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 24,
+      "type": "SCALAR",
+      "max": [
+        8.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5121,
+      "count": 540,
+      "type": "SCALAR",
+      "max": [
+        188.0
+      ],
+      "min": [
+        9.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 746,
+      "type": "VEC3",
+      "max": [
+        0.0247656237334013,
+        0.25502362847328186,
+        0.039086975157260895
+      ],
+      "min": [
+        -0.024765528738498688,
+        -0.039156995713710785,
+        -0.039087437093257904
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 746,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 746,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 746,
+      "type": "VEC2",
+      "max": [
+        0.90472215414047241,
+        0.62107259035110474
+      ],
+      "min": [
+        0.00764957070350647,
+        0.0019921064376831055
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 2592,
+      "type": "SCALAR",
+      "max": [
+        697.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 120,
+      "type": "SCALAR",
+      "max": [
+        745.0
+      ],
+      "min": [
+        698.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "lever.bin",
+      "byteLength": 50868
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2268
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2268,
+      "byteLength": 2268
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4536,
+      "byteLength": 3024
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7560,
+      "byteLength": 1512
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9072,
+      "byteLength": 24
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9096,
+      "byteLength": 540
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9636,
+      "byteLength": 8952
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18588,
+      "byteLength": 8952
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27540,
+      "byteLength": 11936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39476,
+      "byteLength": 5968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45444,
+      "byteLength": 5184
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 50628,
+      "byteLength": 240
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "name": "Hole"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6415094,
+          0.6415094,
+          0.6415094,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.38099998235702515
+      },
+      "name": "MediumGrey"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.169811279,
+          0.169811279,
+          0.169811279,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.328000009059906
+      },
+      "name": "Controls_Black"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.29600000381469727
+      },
+      "name": "Chrome"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "LeverPlate"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 10,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 11,
+          "material": 3
+        }
+      ],
+      "name": "LeverStick"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        4
+      ],
+      "name": "Lever"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Lever Visuals"
+    },
+    {
+      "children": [
+        3
+      ],
+      "mesh": 0,
+      "name": "LeverPlate"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        -0.4226183,
+        0.0,
+        0.0,
+        0.9063078
+      ],
+      "name": "LeverStick"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "Feedback Effects"
+    },
+    {
+      "name": "Audio Feedback"
+    },
+    {
+      "name": "Visual Feedback"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "lever"
+    }
+  ]
+}

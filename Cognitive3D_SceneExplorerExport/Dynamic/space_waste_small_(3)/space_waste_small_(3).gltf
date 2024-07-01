@@ -1,0 +1,20 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "space_waste_small_(3).bin",
+      "byteLength": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "space_waste_small_(3)"
+    }
+  ]
+}

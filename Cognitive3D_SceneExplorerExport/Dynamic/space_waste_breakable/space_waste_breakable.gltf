@@ -1,0 +1,206 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 378,
+      "type": "VEC3",
+      "max": [
+        1.0504618883132935,
+        1.0798560380935669,
+        1.1452537775039673
+      ],
+      "min": [
+        -1.1700057983398438,
+        -1.1435921192169189,
+        -1.00357985496521
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 378,
+      "type": "VEC3",
+      "max": [
+        0.98897910118103027,
+        0.988473117351532,
+        0.99203240871429443
+      ],
+      "min": [
+        -0.97415030002593994,
+        -0.9791075587272644,
+        -0.99292784929275513
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 378,
+      "type": "VEC4",
+      "max": [
+        0.995093822479248,
+        0.99999642372131348,
+        0.77255851030349731,
+        1.0
+      ],
+      "min": [
+        -0.99967408180236816,
+        -0.99989807605743408,
+        -0.6200488805770874,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 378,
+      "type": "VEC2",
+      "max": [
+        1.0000001192092896,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1872,
+      "type": "SCALAR",
+      "max": [
+        377.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "space_waste_breakable.bin",
+      "byteLength": 21888
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4536,
+      "byteLength": 4536
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9072,
+      "byteLength": 6048
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15120,
+      "byteLength": 3024
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18144,
+      "byteLength": 3744
+    }
+  ],
+  "images": [
+    {
+      "uri": "1995425046Rock_Diffuse_DarkerMain.png",
+      "name": "Rock_Diffuse_Darker"
+    },
+    {
+      "uri": "1950241435Rock_NormalBump.png",
+      "name": "Rock_Normal"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "name": "Material.rocks"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Space Waste Breakable"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 0,
+      "name": "Space Waste Breakable"
+    },
+    {
+      "scale": [
+        0.044038076,
+        0.044038076,
+        0.044038076
+      ],
+      "translation": [
+        1.354,
+        0.9619,
+        -0.233
+      ],
+      "name": "Audio Affordance"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "space_waste_breakable"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "1995425046Rock_Diffuse_DarkerMain"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "1950241435Rock_NormalBump"
+    }
+  ]
+}
